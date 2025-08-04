@@ -1,0 +1,31 @@
+# Nmap 7.94SVN scan initiated Mon Aug  4 15:56:03 2025 as: nmap -sS -oN scan_results.txt 10.70.139.0/24
+Nmap scan report for 10.70.139.110
+Host is up (0.029s latency).
+Not shown: 999 closed tcp ports (reset)
+PORT     STATE    SERVICE
+5060/tcp filtered sip
+MAC Address: A2:75:19:09:CE:67 (Unknown)
+
+Nmap scan report for _gateway (10.70.139.168)
+Host is up (0.0033s latency).
+Not shown: 999 closed tcp ports (reset)
+PORT   STATE SERVICE
+53/tcp open  domain
+MAC Address: EE:DC:52:BF:74:8D (Unknown)
+
+Nmap scan report for 10.70.139.197
+Host is up (0.55s latency).
+All 1000 scanned ports on 10.70.139.197 are in ignored states.
+Not shown: 1000 filtered tcp ports (no-response)
+MAC Address: 80:30:49:58:73:01 (Liteon Technology)
+
+Nmap scan report for Rocky-Lenovo-E41-55 (10.70.139.195)
+Host is up (0.000014s latency).
+Not shown: 996 closed tcp ports (reset)
+PORT     STATE SERVICE
+21/tcp   open  ftp
+80/tcp   open  http
+111/tcp  open  rpcbind
+3389/tcp open  ms-wbt-server
+
+# Nmap done at Mon Aug  4 15:57:33 2025 -- 256 IP addresses (4 hosts up) scanned in 89.75 seconds
